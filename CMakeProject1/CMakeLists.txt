@@ -4,7 +4,8 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable.
-add_executable (ffmpeg "CMakeProject1.cpp" "CMakeProject1.h")
+#add_executable (ffmpeg "CMakeProject1.cpp" "CMakeProject1.h")
+add_executable (ffmpeg "demuxing_decoding.cpp" "CMakeProject1.h")
 
 # 配置 FFmpeg 头文件目录
 include_directories("D:/Visual_Studio_2019/Pro_Lib/ffmpeg-n4.4.1-win64-gpl-shared-4.4/include")
